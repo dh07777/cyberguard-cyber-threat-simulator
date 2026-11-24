@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>CyberGuard – Cyber Threat Simulator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <aside id="side">
+        <div class="brand">▮<span> CyberGuard</span></div>
+        <nav id="nav"></nav>
+    </aside>
+    <div id="main">
+        <header><button id="menu" class="btn" aria-label="Toggle menu">☰</button>
+            <h1 id="ttl"></h1><button id="bell" class="btn" aria-label="Notifications">🔔<sup id="bc"></sup></button><span class="tag mono">SIMULATION · LOCAL ONLY</span></header>
+        <main id="view"></main>
+    </div>
+    <div id="modal" hidden>
+        <div class="box">
+            <div id="mb"></div><button class="btn" id="mc">Close</button></div>
+    </div>
+    <div id="toasts"></div>
+    <script src="js/storage.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/phishing.js"></script>
+    <script src="js/password.js"></script>
+    <script src="js/url-analyzer.js"></script>
+    <script src="js/threats.js"></script>
+    <script src="js/incidents.js"></script>
+    <script src="js/learning.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
